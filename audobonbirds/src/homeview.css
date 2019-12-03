@@ -1,0 +1,22 @@
+ul {
+  list-style: none;
+}
+
+li,
+a {
+  text-decoration: none;
+}
+
+.birdPicsCntr {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 5% 2%;
+  justify-content: center;
+  width: 1300px;
+}
+
+.birdPics {
+  height: 320px;
+  width: 300px;
+}

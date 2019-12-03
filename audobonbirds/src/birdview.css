@@ -1,0 +1,63 @@
+.birdview {
+  display: grid;
+  grid-template-columns: [first] 100px [line2]300px [line3] 50px [col4-start] 500px [line5] auto [end];
+  grid-template-rows: [row1-start] 10px [row2] 80px [row3] 60px [row4] 250px [row5] 50px [row6] auto [last-line];
+}
+
+.birdpic {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: row1-end;
+  grid-row-end: 3;
+}
+
+.name {
+  grid-column-start: col4-start;
+  grid-column-end: 5;
+  grid-row-start: 2;
+}
+
+.genus {
+  grid-column-start: col4-start;
+  grid-column-end: 5;
+  grid-row-start: 3;
+}
+
+.convo {
+  grid-column-start: col4-start;
+  grid-column-end: 5;
+  grid-row-start: 4;
+}
+
+.read {
+  grid-column-start: col4-start;
+  grid-column-end: 5;
+  grid-row-start: 5;
+  background-color: #282c34;
+  color: white;
+  width: 100px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.newbirdpage {
+  margin: 0 40%;
+  font-size: 20px;
+}
+
+.field {
+  height: 40px;
+  width: 360px;
+  border-radius: 4px;
+  border: 3px brown solid;
+  margin: 1% 0;
+}
+
+.bigfield {
+  height: 100px;
+  width: 360px;
+  border-radius: 4px;
+  border: 3px brown solid;
+  margin: 1% 0;
+}
